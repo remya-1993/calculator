@@ -20,14 +20,5 @@ function SquareRoot() {
     } else {
     }
 }
-function decimel (value){
-    if (number == '.') { 
 
-        if (screen.value.includes('.')) {
-            screen.value += number;
-        }
-    } else {
-        screen.value += number;
-    }
-}
 
