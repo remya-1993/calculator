@@ -16,6 +16,8 @@ function backspace() {
 function SquareRoot() {
     let value = parseFloat(screen.value);
     if (value >= 0) {
+
+        
         screen.value = Math.sqrt(value);
     } else {
     }
