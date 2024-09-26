@@ -22,6 +22,7 @@ P{
   
 }
 #screen{
+    margin-top: 10px;
     width: 440px;
     height: 50px;
     background-color: rgb(206, 222, 236);
@@ -55,7 +56,7 @@ P{
 @media screen and (max-width: 1199px) {
     h1 {
         align-items: center;
-      
+        font-size: 2rem;
     }
 
     #screen {
