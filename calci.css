@@ -52,23 +52,26 @@ P{
     background-color: rgb(72, 96, 125);
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 1199px) {
     h1 {
-        font-size: 2rem;
+        align-items: center;
+      
     }
 
     #screen {
-        font-size: 1.5rem;
+        align-items: center;
+        font-size: 4rem;
         height: 50px;
     }
 
     .button {
         width: 23%;
         height: 50px;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .box {
+        align-items: center;
         width: 100%;
     }
 }
