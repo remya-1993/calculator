@@ -53,26 +53,8 @@ P{
     background-color: rgb(72, 96, 125);
 }
 
-@media screen and (max-width: 1199px) {
-    h1 {
-        align-items: center;
-        font-size: 2rem;
-    }
-
-    #screen {
-        align-items: center;
-        font-size: 4rem;
-        height: 50px;
-    }
-
-    .button {
-        width: 23%;
-        height: 50px;
-        font-size: 2.5rem;
-    }
-
-    .box {
-        align-items: center;
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .box{
+        justify-content: center;
     }
 }
