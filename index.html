@@ -5,46 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
- 
+
 </head>
 <link rel="stylesheet" href="./calci.css">
 
 <body>
-    
-   
 
-<div class="box">
-    <form action="">
-    <p>CALCI</p>
-        <input type="text" id="screen">
-        <br>
-        <input class="button number" type="button" value="7" onclick="btnClick(value)">
-        <input class="button number" type="button" value="8" onclick="btnClick(value)">
-        <input class="button number" type="button" value="9" onclick="btnClick(value)">
-        <input class="button operator" type="button" value="/" onclick="btnClick(value)"> 
-        <br>
-        <input class="button number" type="button" value="4" onclick="btnClick(value)">
-        <input class="button number" type="button" value="5" onclick="btnClick(value)">
-        <input class="button number" type="button" value="6" onclick="btnClick(value)">
-        <input class="button operator" type="button" value="*" onclick="btnClick(value)">
-        <br>
-        <input class="button number" type="button" value="1" onclick="btnClick(value)">
-        <input class="button number" type="button" value="2" onclick="btnClick(value)">
-        <input class="button number" type="button" value="3" onclick="btnClick(value)">
-        <input class="button operator" type="button" value="+" onclick="btnClick(value)">
-        <br>
-        <input class="button number" type="button" value="00" onclick="btnClick(value)">
-        <input class="button number" type="button" value="0" onclick="btnClick(value)">
-        <input class="button point" type="button" value="." onclick="btnClick(value)">
-        <input class="button operator" type="button" value="-" onclick="btnClick(value)">
-        <br>
-        <input class="button clear" type="button" value="C" onclick="clearScreen()">
-        <input class="button backspace" type="button" value="←" onclick="backspace()">
-        <input class="button result" type="button" value="=" onclick="findResult()">
-        <input class="button operator" type="button" value="√" onclick="SquareRoot(value)">
-    </form>
-    <script src="./calci.js"></script> 
-</div>
+
+
+    <div class="box">
+        <form action="">
+            <p>CALCI</p>
+            <input type="text" id="screen">
+            <br>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <input class="button number" type="button" value="7" onclick="btnClick(value)">
+                <input class="button number" type="button" value="8" onclick="btnClick(value)">
+                <input class="button number" type="button" value="9" onclick="btnClick(value)">
+                <input class="button operator" type="button" value="/" onclick="btnClick(value)">
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <input class="button number" type="button" value="4" onclick="btnClick(value)">
+                <input class="button number" type="button" value="5" onclick="btnClick(value)">
+                <input class="button number" type="button" value="6" onclick="btnClick(value)">
+                <input class="button operator" type="button" value="*" onclick="btnClick(value)">
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <input class="button number" type="button" value="1" onclick="btnClick(value)">
+                <input class="button number" type="button" value="2" onclick="btnClick(value)">
+                <input class="button number" type="button" value="3" onclick="btnClick(value)">
+                <input class="button operator" type="button" value="+" onclick="btnClick(value)">
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <input class="button number" type="button" value="00" onclick="btnClick(value)">
+                <input class="button number" type="button" value="0" onclick="btnClick(value)">
+                <input class="button point" type="button" value="." onclick="btnClick(value)">
+                <input class="button operator" type="button" value="-" onclick="btnClick(value)">
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <input class="button clear" type="button" value="C" onclick="clearScreen()">
+                <input class="button backspace" type="button" value="←" onclick="backspace()">
+                <input class="button result" type="button" value="=" onclick="findResult()">
+                <input class="button operator" type="button" value="√" onclick="SquareRoot(value)">
+            </div>
+        </form>
+        <script src="./calci.js"></script>
+    </div>
 
 </body>
 
